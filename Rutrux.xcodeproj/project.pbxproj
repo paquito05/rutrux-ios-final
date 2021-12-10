@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1942D78958658AA810DB9C4E /* Pods_Rutrux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A9404A0562A31A16C70434 /* Pods_Rutrux.framework */; };
+		AE454AE1274C70490078568E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE454AE0274C70490078568E /* LoginViewController.swift */; };
+		AE5176792745A29E003F9DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5176782745A29E003F9DC6 /* AppDelegate.swift */; };
+		AE51767B2745A29E003F9DC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51767A2745A29E003F9DC6 /* SceneDelegate.swift */; };
+		AE51767D2745A29E003F9DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51767C2745A29E003F9DC6 /* ViewController.swift */; };
+		AE5176802745A29E003F9DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51767E2745A29E003F9DC6 /* Main.storyboard */; };
+		AE5176832745A29F003F9DC6 /* Rutrux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE5176812745A29F003F9DC6 /* Rutrux.xcdatamodeld */; };
+		AE5176852745A2A0003F9DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5176842745A2A0003F9DC6 /* Assets.xcassets */; };
+		AE5176882745A2A0003F9DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5176862745A2A0003F9DC6 /* LaunchScreen.storyboard */; };
+		AE5176902745A517003F9DC6 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51768F2745A517003F9DC6 /* ContentViewController.swift */; };
+		AE5176922745A762003F9DC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE5176912745A762003F9DC6 /* GoogleService-Info.plist */; };
+		AE5176952745B883003F9DC6 /* Empresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5176942745B883003F9DC6 /* Empresa.swift */; };
+		AE5176972745B8DD003F9DC6 /* Linea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5176962745B8DD003F9DC6 /* Linea.swift */; };
+		AE5176992745D403003F9DC6 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5176982745D403003F9DC6 /* DetallesViewController.swift */; };
+		AE51769B2745D4C9003F9DC6 /* Ruta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51769A2745D4C9003F9DC6 /* Ruta.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08AADB51B3D29D334C8EC7DA /* Pods-Rutrux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutrux.debug.xcconfig"; path = "Target Support Files/Pods-Rutrux/Pods-Rutrux.debug.xcconfig"; sourceTree = "<group>"; };
+		34A9404A0562A31A16C70434 /* Pods_Rutrux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rutrux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A669C05057AD69CE8CE7805 /* Pods-Rutrux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rutrux.release.xcconfig"; path = "Target Support Files/Pods-Rutrux/Pods-Rutrux.release.xcconfig"; sourceTree = "<group>"; };
+		AE454AE0274C70490078568E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE5176752745A29E003F9DC6 /* Rutrux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rutrux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5176782745A29E003F9DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE51767A2745A29E003F9DC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE51767C2745A29E003F9DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE51767F2745A29E003F9DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5176822745A29F003F9DC6 /* Rutrux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rutrux.xcdatamodel; sourceTree = "<group>"; };
+		AE5176842745A2A0003F9DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5176872745A2A0003F9DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE5176892745A2A0003F9DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE51768F2745A517003F9DC6 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		AE5176912745A762003F9DC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE5176942745B883003F9DC6 /* Empresa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresa.swift; sourceTree = "<group>"; };
+		AE5176962745B8DD003F9DC6 /* Linea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linea.swift; sourceTree = "<group>"; };
+		AE5176982745D403003F9DC6 /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
+		AE51769A2745D4C9003F9DC6 /* Ruta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ruta.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5176722745A29E003F9DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942D78958658AA810DB9C4E /* Pods_Rutrux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AE7A194AD71FBF11797754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A9404A0562A31A16C70434 /* Pods_Rutrux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65958D3F959DCF98B4DA73D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08AADB51B3D29D334C8EC7DA /* Pods-Rutrux.debug.xcconfig */,
+				3A669C05057AD69CE8CE7805 /* Pods-Rutrux.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE51766C2745A29E003F9DC6 = {
+			isa = PBXGroup;
+			children = (
+				AE5176772745A29E003F9DC6 /* Rutrux */,
+				AE5176762745A29E003F9DC6 /* Products */,
+				65958D3F959DCF98B4DA73D7 /* Pods */,
+				21AE7A194AD71FBF11797754 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5176762745A29E003F9DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5176752745A29E003F9DC6 /* Rutrux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5176772745A29E003F9DC6 /* Rutrux */ = {
+			isa = PBXGroup;
+			children = (
+				AE5176782745A29E003F9DC6 /* AppDelegate.swift */,
+				AE51767A2745A29E003F9DC6 /* SceneDelegate.swift */,
+				AE5176982745D403003F9DC6 /* DetallesViewController.swift */,
+				AE454AE0274C70490078568E /* LoginViewController.swift */,
+				AE51767C2745A29E003F9DC6 /* ViewController.swift */,
+				AE5176932745B871003F9DC6 /* Modelos */,
+				AE5176912745A762003F9DC6 /* GoogleService-Info.plist */,
+				AE51767E2745A29E003F9DC6 /* Main.storyboard */,
+				AE5176842745A2A0003F9DC6 /* Assets.xcassets */,
+				AE5176862745A2A0003F9DC6 /* LaunchScreen.storyboard */,
+				AE5176892745A2A0003F9DC6 /* Info.plist */,
+				AE5176812745A29F003F9DC6 /* Rutrux.xcdatamodeld */,
+				AE51768F2745A517003F9DC6 /* ContentViewController.swift */,
+			);
+			path = Rutrux;
+			sourceTree = "<group>";
+		};
+		AE5176932745B871003F9DC6 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				AE5176942745B883003F9DC6 /* Empresa.swift */,
+				AE5176962745B8DD003F9DC6 /* Linea.swift */,
+				AE51769A2745D4C9003F9DC6 /* Ruta.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE530C9B2746D9A500906981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE5176742745A29E003F9DC6 /* Rutrux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE51768C2745A2A0003F9DC6 /* Build configuration list for PBXNativeTarget "Rutrux" */;
+			buildPhases = (
+				E79B477DBCB4183088717DE1 /* [CP] Check Pods Manifest.lock */,
+				AE530C9B2746D9A500906981 /* Headers */,
+				AE5176712745A29E003F9DC6 /* Sources */,
+				AE5176722745A29E003F9DC6 /* Frameworks */,
+				AE5176732745A29E003F9DC6 /* Resources */,
+				ADE573A93401698B5D0FDF99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rutrux;
+			productName = Rutrux;
+			productReference = AE5176752745A29E003F9DC6 /* Rutrux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE51766D2745A29E003F9DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = empresa;
+				TargetAttributes = {
+					AE5176742745A29E003F9DC6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AE5176702745A29E003F9DC6 /* Build configuration list for PBXProject "Rutrux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE51766C2745A29E003F9DC6;
+			productRefGroup = AE5176762745A29E003F9DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5176742745A29E003F9DC6 /* Rutrux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5176732745A29E003F9DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5176882745A2A0003F9DC6 /* LaunchScreen.storyboard in Resources */,
+				AE5176852745A2A0003F9DC6 /* Assets.xcassets in Resources */,
+				AE5176922745A762003F9DC6 /* GoogleService-Info.plist in Resources */,
+				AE5176802745A29E003F9DC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADE573A93401698B5D0FDF99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rutrux/Pods-Rutrux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rutrux/Pods-Rutrux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rutrux/Pods-Rutrux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79B477DBCB4183088717DE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rutrux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5176712745A29E003F9DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5176902745A517003F9DC6 /* ContentViewController.swift in Sources */,
+				AE5176952745B883003F9DC6 /* Empresa.swift in Sources */,
+				AE51767D2745A29E003F9DC6 /* ViewController.swift in Sources */,
+				AE5176832745A29F003F9DC6 /* Rutrux.xcdatamodeld in Sources */,
+				AE5176992745D403003F9DC6 /* DetallesViewController.swift in Sources */,
+				AE51769B2745D4C9003F9DC6 /* Ruta.swift in Sources */,
+				AE5176792745A29E003F9DC6 /* AppDelegate.swift in Sources */,
+				AE5176972745B8DD003F9DC6 /* Linea.swift in Sources */,
+				AE454AE1274C70490078568E /* LoginViewController.swift in Sources */,
+				AE51767B2745A29E003F9DC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE51767E2745A29E003F9DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE51767F2745A29E003F9DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE5176862745A2A0003F9DC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5176872745A2A0003F9DC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE51768A2745A2A0003F9DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE51768B2745A2A0003F9DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE51768D2745A2A0003F9DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AADB51B3D29D334C8EC7DA /* Pods-Rutrux.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rutrux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.Rutrux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE51768E2745A2A0003F9DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A669C05057AD69CE8CE7805 /* Pods-Rutrux.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rutrux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.Rutrux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5176702745A29E003F9DC6 /* Build configuration list for PBXProject "Rutrux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE51768A2745A2A0003F9DC6 /* Debug */,
+				AE51768B2745A2A0003F9DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE51768C2745A2A0003F9DC6 /* Build configuration list for PBXNativeTarget "Rutrux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE51768D2745A2A0003F9DC6 /* Debug */,
+				AE51768E2745A2A0003F9DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE5176812745A29F003F9DC6 /* Rutrux.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE5176822745A29F003F9DC6 /* Rutrux.xcdatamodel */,
+			);
+			currentVersion = AE5176822745A29F003F9DC6 /* Rutrux.xcdatamodel */;
+			path = Rutrux.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE51766D2745A29E003F9DC6 /* Project object */;
+}

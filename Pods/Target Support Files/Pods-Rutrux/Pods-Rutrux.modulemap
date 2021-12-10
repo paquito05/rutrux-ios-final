@@ -1,0 +1,6 @@
+framework module Pods_Rutrux {
+  umbrella header "Pods-Rutrux-umbrella.h"
+
+  export *
+  module * { export * }
+}
